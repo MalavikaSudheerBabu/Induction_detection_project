@@ -44,7 +44,7 @@ Matplotlib
 
 Clone the repository:
 
-git clone https://github.com/yourusername/Intrusion-Detection-System.git
+git clone https://github.com/MalavikaSudheerBabu/Induction_detection_project.git
 
 Navigate to the project directory:
 
