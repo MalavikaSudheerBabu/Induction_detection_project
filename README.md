@@ -52,7 +52,7 @@ cd Intrusion-Detection-System
 
 Open the Jupyter Notebook and run all cells:
 
-jupyter notebook NSLKDD_preprocess_8models.ipynb
+jupyter notebook Intruder_detcetion_8_models.ipynb.ipynb
 
 Models Used
 
