@@ -1,4 +1,4 @@
-# Intrusion Detection System using ML & DL
+# Intrusion Detection System 
 
 # Abstract
 
