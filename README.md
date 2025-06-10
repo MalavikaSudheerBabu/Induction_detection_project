@@ -1,0 +1,66 @@
+# Induction_detection
+
+This research combines deep learning and conventional machine learning models to develop an intrusion detection system (IDS).  It helps protect systems from threats by detecting malicious network traffic using the UNSW-NB15 dataset.
+
+Intrusion-detection-DL-ML/
+│
+├── data/                         # Dataset files (e.g., UNSW_NB15_training-set.csv)
+├── models/
+│   ├── cnn_model.py              # Convolutional Neural Network model
+│   ├── ml_models.py              # ML models: SVM, RF, XGBoost, etc.
+│   ├── lstm_model.py             # LSTM model
+│   ├── gru_model.py              # GRU model
+│   ├── mlp_model.py              # MLP model
+│   ├── gan_model.py              # GAN for synthetic data generation
+├── result_detection
+
+
+# Models Implemented
+The project includes 8 models for evaluation:
+
+| Model Type           | Name                                 | Description                                            |
+| -------------------- | ------------------------------------ | ------------------------------------------------------ |
+| 1️⃣ Machine Learning | **SVM (Support Vector Machine)**     | Binary classifier for separating classes.              |
+| 2️⃣ Machine Learning | **Random Forest (RF)**               | Ensemble of decision trees for classification.         |
+| 3️⃣ Machine Learning | **XGBoost**                          | Boosted tree-based classifier.                         |
+| 4️⃣ Deep Learning    | **CNN (Convolutional Neural Net)**   | Detects spatial patterns in feature sets.              |
+| 5️⃣ Deep Learning    | **LSTM (Long Short-Term Memory)**    | Captures temporal dependencies in sequential data.     |
+| 6️⃣ Deep Learning    | **GRU (Gated Recurrent Unit)**       | Similar to LSTM but with fewer parameters.             |
+| 7️⃣ Deep Learning    | **MLP (Multi-Layer Perceptron)**     | Basic feedforward neural network.                      |
+| 8️⃣ Deep Learning    | **GAN (Generative Adversarial Net)** | Used for synthetic data generation to balance classes. |
+
+# Setup Instructions
+# Clone the repository
+
+git clone https://github.com/yourusername/Intrusion-detection-DL-ML.git
+cd Intrusion-detection-DL-ML
+Dataset already in this repo.
+
+# Run the CNN Model
+
+python models/cnn_model.py
+
+# Run other models
+
+For ML models:
+
+python models/ml_models.py
+For LSTM, GRU, MLP, GAN:
+python models/lstm_model.py
+python models/gru_model.py
+python models/mlp_model.py
+python models/gan_model.py
+
+# Evaluation Metrics
+Each model is evaluated using:
+1. Accuracy
+2. Precision
+3. Recall
+4. F1-score
+Specificity
+5.ROC-AUC
+6. Confusion Matrix
+
+Visualizations like ROC curves and training history plots are also included for deep learning models.
+
+
